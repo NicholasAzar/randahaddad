@@ -107,15 +107,12 @@ var Main = React.createClass({
                 paddingTop: 6
             },
             topMenu: {
-                backgroundColor: Colors.green300,
+                backgroundColor: Colors.red300,
                 position: 'fixed',
                 top: '0px',
                 left: '0px',
                 right: '0px',
                 height: '64px'
-            },
-            subheaderMenuItem: {
-                backgroundColor: Colors.green300
             }
         };
     },

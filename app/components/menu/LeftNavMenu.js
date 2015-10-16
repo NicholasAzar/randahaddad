@@ -12,7 +12,7 @@ var LeftNavMenu = React.createClass({
     componentWillMount: function() {
         ThemeManager.setComponentThemes({
             menuSubheader: {
-                textColor: Colors.green300
+                textColor: Colors.red300
             }
         });
     },
@@ -67,15 +67,11 @@ var LeftNavMenu = React.createClass({
                 color: Typography.textFullWhite,
                 lineHeight: Spacing.desktopKeylineIncrement + 'px',
                 fontWeight: Typography.fontWeightLight,
-                backgroundColor: Colors.green300,
+                backgroundColor: Colors.red300,
                 paddingLeft: Spacing.desktopGutter,
                 paddingTop: '0px',
                 marginBottom: '0px'
-            },
-            leftNav: {
-                "SubheaderMenuItem backgroundColor": Colors.green400
             }
-
         };
     },
 

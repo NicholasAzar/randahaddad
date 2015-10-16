@@ -29,7 +29,7 @@ var Home = React.createClass({
     getStyles: function () {
         return {
             root: {
-                backgroundColor: Colors.green400,
+                backgroundColor: Colors.red400,
                 overflow: 'hidden',
                 width: '100%'
             },
